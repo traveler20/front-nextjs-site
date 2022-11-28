@@ -1,3 +1,30 @@
+# Next.js/React での　 Web サイト構築に関するメモ
+
+『作って学ぶ　 Next.js/React 　 Web サイト構築』
+
+## 1
+
+`npx create-next-app .`
+
+`npm run dev`
+
+`public`：ブラウザからアクセス可能
+
+`pages`：WEB ページの追加
+
+## 2
+
+コンポーネントを使う
+
+コンポーネント名は大文字から始まるパスカルケース。
+
+コンポーネントは`props`というオブジェクトを受け取りコンポーネントを書き換える。
+
+`<Link><a></a></Link>`：Next.js13 以降は NG
+→`<Link></Link>`
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
